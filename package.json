@@ -1,0 +1,50 @@
+{
+  "name": "@animiru/ani-migrate",
+  "version": "1.0.0",
+  "description": "PostgreSQL script migrator.",
+  "main": "bin",
+  "bin": {
+    "ani-migrate": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "example"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Animiru/ani-migrate.git"
+  },
+  "keywords": [
+    "animiru",
+    "pg",
+    "postgres",
+    "postgresql",
+    "migrate",
+    "migration",
+    "animigrate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Animiru/ani-migrate/issues"
+  },
+  "homepage": "https://github.com/Animiru/ani-migrate#readme",
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^16.10.2",
+    "@types/pg": "^8.6.1",
+    "@types/underscore": "^1.11.3",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "colors": "1.4.0",
+    "pg": "8.5.1",
+    "underscore": "^1.13.1"
+  }
+}
