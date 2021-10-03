@@ -109,7 +109,7 @@ As stated above the migration scripts can be organized and categorized however y
 
 `Sample Migration Names`
 ```
-17-18.sql : Migrations script from version 17 to version 18 for forward migration
+17-18.sql : Migration script from version 17 to version 18 for forward migration
 18-17.sql : Migration script from version 18 to version 17 for backwards migration
 ```
 ### NOTE
